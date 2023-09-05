@@ -1,0 +1,12 @@
+//Create a function that takes a number as an argument. Add up all the numbers from 1 to the number you passed to the function.
+
+function add(num)
+{
+let temp = num;
+while(num>0)
+{
+ temp=temp+(num-1);
+ num--
+}
+document.write(temp)
+}
