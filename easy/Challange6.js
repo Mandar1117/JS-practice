@@ -17,8 +17,5 @@ function minMax(a)
             max=a[i];
         }   
     }
-    
-    let newarr=[min,max]
-    return newarr
-
+    return [min,max]
 }
