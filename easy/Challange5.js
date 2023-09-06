@@ -6,10 +6,10 @@ function largestSwap(num)
 {
     let initial=num;
     let temp=num;
-    num=num%10;
+    initial=initial%10;
     temp=Math.floor(temp/10);
-    num=(num*10)+temp;
-    if(initial<num)
+    initial=(initial*10)+temp;
+    if(num<initial)
     {
         document.write(false);
     }
