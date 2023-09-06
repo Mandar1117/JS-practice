@@ -1,6 +1,6 @@
 //  Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.
 
-let a=[18,2,45,4,15,6,77,8];
+const a=[18,2,45,4,15,6,77,8];
 function minMax(a)
 {
     let min=a[0];
