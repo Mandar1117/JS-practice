@@ -13,6 +13,6 @@ let temp = num;
 for (let num = temp; num > 0; num--) {
     temp=temp+(num-1)
 }
-document.write(temp);
+return temp;
 }
 
