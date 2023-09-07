@@ -1,7 +1,7 @@
 //  Create a function which returns the number of true values there are in an array.
 
 
-CountTure=(arr)=>
+const CountTure=(arr)=>
 {
     let count=0;
 
